@@ -1,0 +1,82 @@
+@import "../../node_modules/swiper/swiper-bundle.css";
+
+@font-face {
+  font-family: "Futura PT";
+  src: url(../fonts/FUTURAPT-LIGHT.TTF);
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Futura PT";
+  src: url(../fonts/FUTURAPT-BOOK.TTF);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Futura PT";
+  src: url(../fonts/FUTURAPT-MEDIUM.TTF);
+  font-weight: 450;
+}
+
+@font-face {
+  font-family: "Futura PT";
+  src: url(../fonts/FUTURAPT-DEMI.TTF);
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Futura PT";
+  src: url(../fonts/FUTURAPT-HEAVY.TTF);
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Futura PT";
+  src: url(../fonts/FUTURAPT-BOLD.TTF);
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Bebas Neue Cyrillic";
+  src: url(../fonts/Bebas_Neue_Cyrillic.ttf);
+  font-weight: 400;
+}
+
+body {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.link {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.image {
+  display: block;
+}
+
+.container {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+
+  max-width: 360px;
+}
