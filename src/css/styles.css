@@ -105,6 +105,14 @@ p {
   background-position: center;
 }
 
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .header {
+    background-image: url(../images/header-background-mobile-2x.jpg);
+  }
+}
+
 .about-course-container {
   margin-bottom: 40px;
 }
@@ -656,6 +664,14 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .how-study-go {
+    background-image: url(../images/how-study-background-mobile-2x.jpg);
+  }
 }
 
 .how-study-go .container {
