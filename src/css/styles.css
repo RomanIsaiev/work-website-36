@@ -764,6 +764,10 @@ p {
   max-width: 98px;
 }
 
+.hand-move-text.green {
+  color: #135b4c;
+}
+
 /* about author */
 
 .about-author-title {
