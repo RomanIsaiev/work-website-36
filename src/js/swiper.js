@@ -8,12 +8,23 @@ const swiper = new Swiper('.mySwiper', {
   slidesPerView: 'auto',
   coverflowEffect: {
     rotate: 50,
-    stretch: 100,
+    stretch: 170,
     depth: 100,
     modifier: 1,
     slideShadows: false,
   },
-  pagination: {
-    el: '.swiper-pagination',
+});
+
+const swiperReviews = new Swiper('.mySwiperReviews', {
+  effect: 'coverflow',
+  grabCursor: true,
+  centeredSlides: true,
+  slidesPerView: 'auto',
+  coverflowEffect: {
+    rotate: 50,
+    stretch: 170,
+    depth: 100,
+    modifier: 1,
+    slideShadows: false,
   },
 });

@@ -1,14 +1,1381 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>System coloring</title>
+    <link
+      rel="stylesheet"
+      href="node_modules/modern-normalize/modern-normalize.css"
+    />
     <link rel="stylesheet" href="/src/css/styles.css" />
   </head>
   <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+    <header class="header">
+      <div class="container">
+        <div class="about-course-container">
+          <p class="about-course-text">
+            Авторський повноцінний базовий ОФЛАЙН-курс з нуля
+          </p>
+        </div>
+        <h1 class="header-title">СИСТЕМНА <span>КОЛОРИСТИКА</span></h1>
+        <p class="header-desc">
+          Опануйте професію, <br />
+          <span
+            >яка назавжди залишиться з Вами і дасть можливість достойно
+            заробляти будь де, незалежно від обставин та місцезнаходження</span
+          >
+        </p>
+        <div class="form-container">
+          <p class="form-title">Заповнюйте анкету передзапису</p>
+          <p class="form-text">
+            щоб першими дізнатися про дату старту курсу, забронювати місце на
+            найкращих умовах та отримати подарунки
+          </p>
+          <a class="form-button link" href="">АНКЕТА ПЕРЕДЗАПИСУ</a>
+        </div>
+        <div class="gift-container">
+          <p class="gift-title">подарунки, які ви можете отримати</p>
+          <div class="gift-wrapper">
+            <picture
+              ><source
+                srcset="
+                  ./src/images/gift-image-mobile-1x.png 1x,
+                  ./src/images/gift-image-mobile-2x.png 2x
+                "
+                media="(min-width: 320px)"
+                width="134"
+                height="89" />
+              <img
+                class="gift-bow"
+                src="./src/images/gift-image-mobile-1x.png"
+                alt="white bow"
+                width="134"
+                height="89"
+            /></picture>
+            <ul class="gift-list list">
+              <li class="list-item">
+                <span>– Урок:</span> «Успішний Колорист. П'ять напрямків у
+                професії, в яких можна розвиватися і круто заробляти»
+              </li>
+              <li class="list-item">
+                <span>– Урок:</span> «Швидкий старт в професії або як окупити
+                навчання за пару місяців»
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="header-author-container">
+        <p class="header-author-name">Ольга Гриценюк</p>
+        <p class="header-author-text">Колорист, Експерт, Наставник,</p>
+        <a class="header-insta-link link" href="" target="_blank" rel="nofollow"
+          ><img src="./src/images/header-insta.svg" alt="insta"
+        /></a>
+      </div>
+    </header>
+    <main>
+      <section class="course-for-you">
+        <div class="container">
+          <h2 class="for-you-title">Цей курс для Вас, якщо ви:</h2>
+          <ul class="for-you-list list">
+            <li class="list-item">
+              <div class="item-image">
+                <picture
+                  ><source
+                    srcset="
+                      ./src/images/for-you/for-you-mobile-01-1x.png 1x,
+                      ./src/images/for-you/for-you-mobile-01-2x.png 2x
+                    "
+                    media="(min-width: 320px)"
+                    width="120"
+                    height="110" />
+                  <img
+                    class="for-you-image"
+                    src="./src/images/for-you/for-you-mobile-01-1x.png"
+                    alt="image"
+                    width="120"
+                    height="110"
+                /></picture>
+              </div>
+              <div class="item-info">
+                <p class="title">Новачок у сфері колористики</p>
+                <p class="desc">і бажаєте освоїти професію Колориста з нуля</p>
+              </div>
+            </li>
+            <li class="list-item">
+              <div class="item-image">
+                <picture
+                  ><source
+                    srcset="
+                      ./src/images/for-you/for-you-mobile-02-1x.png 1x,
+                      ./src/images/for-you/for-you-mobile-02-2x.png 2x
+                    "
+                    media="(min-width: 320px)"
+                    width="120"
+                    height="110" />
+                  <img
+                    class="for-you-image"
+                    src="./src/images/for-you/for-you-mobile-02-1x.png"
+                    alt="image"
+                    width="120"
+                    height="110"
+                /></picture>
+              </div>
+              <div class="item-info">
+                <p class="title">
+                  Перукар і хочете додатково опанувати колористику,
+                </p>
+                <p class="desc">
+                  навчитися виконувати фарбування волосся різної складності та
+                  значно збільшити чек на послуги
+                </p>
+              </div>
+            </li>
+            <li class="list-item">
+              <div class="item-image">
+                <picture
+                  ><source
+                    srcset="
+                      ./src/images/for-you/for-you-mobile-03-1x.png 1x,
+                      ./src/images/for-you/for-you-mobile-03-2x.png 2x
+                    "
+                    media="(min-width: 320px)"
+                    width="120"
+                    height="110" />
+                  <img
+                    class="for-you-image"
+                    src="./src/images/for-you/for-you-mobile-03-1x.png"
+                    alt="image"
+                    width="120"
+                    height="110"
+                /></picture>
+              </div>
+              <div class="item-info">
+                <p class="title">Майстер б'юті-сфери</p>
+                <p class="desc">і бажаєте розширити спектр своїх послуг</p>
+              </div>
+            </li>
+            <li class="list-item">
+              <div class="item-image">
+                <picture
+                  ><source
+                    srcset="
+                      ./src/images/for-you/for-you-mobile-04-1x.png 1x,
+                      ./src/images/for-you/for-you-mobile-04-2x.png 2x
+                    "
+                    media="(min-width: 320px)"
+                    width="120"
+                    height="110" />
+                  <img
+                    class="for-you-image"
+                    src="./src/images/for-you/for-you-mobile-04-1x.png"
+                    alt="image"
+                    width="120"
+                    height="110"
+                /></picture>
+              </div>
+              <div class="item-info">
+                <p class="title">Шукаєте можливість відновити кар'єру</p>
+                <p class="desc">
+                  після довгої паузи, переїзду чи декрету та забезпечити собі
+                  стабільний дохід
+                </p>
+              </div>
+            </li>
+            <li class="list-item">
+              <div class="item-image">
+                <picture
+                  ><source
+                    srcset="
+                      ./src/images/for-you/for-you-mobile-05-1x.png 1x,
+                      ./src/images/for-you/for-you-mobile-05-2x.png 2x
+                    "
+                    media="(min-width: 320px)"
+                    width="120"
+                    height="110" />
+                  <img
+                    class="for-you-image"
+                    src="./src/images/for-you/for-you-mobile-05-1x.png"
+                    alt="image"
+                    width="120"
+                    height="110"
+                /></picture>
+              </div>
+              <div class="item-info">
+                <p class="title">Творча людина</p>
+                <p class="desc">
+                  і хочете відкрити для себе світ б'юті, опанувати теорію
+                  кольору, навчитися працювати з кольоротипами
+                </p>
+              </div>
+            </li>
+            <li class="list-item">
+              <div class="item-image">
+                <picture
+                  ><source
+                    srcset="
+                      ./src/images/for-you/for-you-mobile-06-1x.png 1x,
+                      ./src/images/for-you/for-you-mobile-06-2x.png 2x
+                    "
+                    media="(min-width: 320px)"
+                    width="120"
+                    height="110" />
+                  <img
+                    class="for-you-image"
+                    src="./src/images/for-you/for-you-mobile-06-1x.png"
+                    alt="image"
+                    width="120"
+                    height="110"
+                /></picture>
+              </div>
+              <div class="item-info">
+                <p class="title">Тільки починаєте працювати Колористом,</p>
+                <p class="desc">
+                  але відчуваєте страх та потребу поглибити, систематизувати
+                  свої теоретичні знання та практичні навички в сучасних
+                  техніках фарбування
+                </p>
+              </div>
+            </li>
+            <li class="list-item">
+              <div class="item-image">
+                <picture
+                  ><source
+                    srcset="
+                      ./src/images/for-you/for-you-mobile-07-1x.png 1x,
+                      ./src/images/for-you/for-you-mobile-07-2x.png 2x
+                    "
+                    media="(min-width: 320px)"
+                    width="120"
+                    height="110" />
+                  <img
+                    class="for-you-image"
+                    src="./src/images/for-you/for-you-mobile-07-1x.png"
+                    alt="image"
+                    width="120"
+                    height="110"
+                /></picture>
+              </div>
+              <div class="item-info">
+                <p class="title">Не маєте досвіду роботи у б'юті-сфері,</p>
+                <p class="desc">
+                  але хочете спробувати себе у творчому секторі і бажаєте
+                  отримати професію, яка приносить задоволення та достойний
+                  прибуток
+                </p>
+              </div>
+            </li>
+            <li class="list-item">
+              <div class="item-image">
+                <picture
+                  ><source
+                    srcset="
+                      ./src/images/for-you/for-you-mobile-08-1x.png 1x,
+                      ./src/images/for-you/for-you-mobile-08-2x.png 2x
+                    "
+                    media="(min-width: 320px)"
+                    width="120"
+                    height="110" />
+                  <img
+                    class="for-you-image"
+                    src="./src/images/for-you/for-you-mobile-08-1x.png"
+                    alt="image"
+                    width="120"
+                    height="110"
+                /></picture>
+              </div>
+              <div class="item-info">
+                <p class="title">Мрієте відкрити свій салон</p>
+                <p class="desc">
+                  та отримати всі необхідні навички та знання для успішного
+                  розвитку власної справи
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="what-you-take">
+        <div class="container">
+          <h2 class="what-you-title">Що Вам дасть цей курс?</h2>
+          <ul class="what-you-list list">
+            <li class="list-item">
+              <p>
+                <img src="./src/images/arrow-up.svg" alt="arrow-up" /> сучасний
+                системний погляд на колористику
+              </p>
+            </li>
+            <li class="list-item">
+              <p>
+                <img src="./src/images/arrow-up.svg" alt="arrow-up" /> грунтовні
+                та структуровані знання
+              </p>
+            </li>
+            <li class="list-item">
+              <p>
+                <img src="./src/images/arrow-up.svg" alt="arrow-up" /> розуміння
+                хімічних процесів у волоссі
+              </p>
+            </li>
+            <li class="list-item">
+              <p>
+                <img src="./src/images/arrow-up.svg" alt="arrow-up" />
+                вивчення складу фарбників
+              </p>
+            </li>
+            <li class="list-item">
+              <p>
+                <img src="./src/images/arrow-up.svg" alt="arrow-up" />
+                як працювати з колірним диском, селектором
+              </p>
+            </li>
+            <li class="list-item">
+              <p>
+                <img src="./src/images/arrow-up.svg" alt="arrow-up" />
+                як створюється фарбкарта
+              </p>
+            </li>
+            <li class="list-item">
+              <p>
+                <img src="./src/images/arrow-up.svg" alt="arrow-up" />
+                як прогнозувати і виконувати фарбування різної складності
+              </p>
+            </li>
+            <li class="list-item">
+              <p>
+                <img src="./src/images/arrow-up.svg" alt="arrow-up" />
+                розуміння важливих аспектів салонної діяльності
+              </p>
+            </li>
+            <li class="list-item">
+              <p>
+                <img src="./src/images/arrow-up.svg" alt="arrow-up" />
+                як прогресувати в майстерності, правильно оцінювати свою роботу
+                та масштабуватися
+              </p>
+            </li>
+            <li class="list-item">
+              <p>
+                <img src="./src/images/arrow-up.svg" alt="arrow-up" />
+                а ще, безліч корисностей з мого практичного досвіду: поради щодо
+                вибору брендів, продуктів, просування в соцмережах та корисні
+                лайфхаки
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="section course-program">
+        <div class="container">
+          <h2 class="program-title">НАСИЧЕНА ПРОГРАМА КУРСУ:</h2>
+          <p class="program-subtitle">По результату вивчення ви дізнаєтесь:</p>
+          <div class="faq">
+            <div class="question open isOpen">
+              <div class="question-name">
+                <p>День 1. Основи перукарської колористики</p>
+                <img
+                  class="question-plus"
+                  src="./src/images/questions-plus.svg"
+                  alt="+"
+                  width="18"
+                  height="18"
+                />
+              </div>
+              <div class="content">
+                <ul>
+                  <li>колір і світло</li>
+                  <li>
+                    колірні теорії, які мають принципове значення для
+                    перукарської колористики
+                  </li>
+                  <li>оптика кольору</li>
+                  <li>колірний диск, як працювати</li>
+                  <li>характеристики кольору</li>
+                  <li>фарбкарта</li>
+                </ul>
+              </div>
+            </div>
+            <div class="question">
+              <div class="question-name">
+                <p>День 2. Волосся</p>
+                <img
+                  class="question-plus"
+                  src="./src/images/questions-plus.svg"
+                  alt="+"
+                  width="18"
+                  height="18"
+                />
+              </div>
+              <div class="content">
+                <ul>
+                  <li>будова волосся на мікрорівнях</li>
+                  <li>колір волосся, фази росту, форми, етніка</li>
+                  <li>характеристики волосся</li>
+                  <li>ступені пошкодження</li>
+                  <li>рН, заряд волосся, проникнення речовин</li>
+                  <li>догляд за волоссям</li>
+                </ul>
+              </div>
+            </div>
+            <div class="question">
+              <div class="question-name">
+                <p>День 3. Організація робочого місця колориста</p>
+                <img
+                  class="question-plus"
+                  src="./src/images/questions-plus.svg"
+                  alt="+"
+                  width="18"
+                  height="18"
+                />
+              </div>
+              <div class="content">
+                <ul>
+                  <li>вимоги до приміщення</li>
+                  <li>вимоги до освітлення</li>
+                  <li>базовий набір інструментів (з рекомендаціями)</li>
+                  <li>постійні та перемінні витратні</li>
+                  <li>розрахунок вартості послуг</li>
+                  <li>дезинфекція, стерилізація</li>
+                </ul>
+              </div>
+            </div>
+            <div class="question">
+              <div class="question-name">
+                <p>День 4. Фарбники</p>
+                <img
+                  class="question-plus"
+                  src="./src/images/questions-plus.svg"
+                  alt="+"
+                  width="18"
+                  height="18"
+                />
+              </div>
+              <div class="content">
+                <ul>
+                  <li>НБ, КБ, РГТ, ФО</li>
+                  <li>класифікація фарбників</li>
+                  <li>склад фарбників та окисників</li>
+                  <li>будова фарбкарт, кодування</li>
+                  <li>колірний диск, селектор</li>
+                  <li>процеси фарбування та знебарвлення</li>
+                </ul>
+              </div>
+            </div>
+            <div class="question">
+              <div class="question-name">
+                <p>День 5. Діагностика та сценарій фарбувань</p>
+                <img
+                  class="question-plus"
+                  src="./src/images/questions-plus.svg"
+                  alt="+"
+                  width="18"
+                  height="18"
+                />
+              </div>
+              <div class="content">
+                <ul>
+                  <li>
+                    робота з клієнтом, аспекти діагностики, підготовка до
+                    процедур
+                  </li>
+                  <li>діагностична карта</li>
+                  <li>поділ на зони, тест-пасма</li>
+                  <li>алгоритми фарбувань</li>
+                  <li>
+                    практичні навики: проділи, «постановка» руки, ширина пасм,
+                    натяг і т.п
+                  </li>
+                  <li>правила змішування коктейлів</li>
+                </ul>
+              </div>
+            </div>
+            <div class="question">
+              <div class="question-name">
+                <p>День 6. Сивина</p>
+                <img
+                  class="question-plus"
+                  src="./src/images/questions-plus.svg"
+                  alt="+"
+                  width="18"
+                  height="18"
+                />
+              </div>
+              <div class="content">
+                <ul>
+                  <li>оптика сивого волосся</li>
+                  <li>діагностика та класифікація сивини</li>
+                  <li>вибір сценарію та продуктів фарбування</li>
+                  <li>проблеми в роботі з сивиною</li>
+                  <li>накопичення та втрата пігменту на сивому волоссі</li>
+                  <li>догляд та рекомендації для клієнта</li>
+                  <li>європейське фарбування сивини</li>
+                </ul>
+              </div>
+            </div>
+            <div class="question">
+              <div class="question-name">
+                <p>День 7. Однотонні класичні фарбування</p>
+                <img
+                  class="question-plus"
+                  src="./src/images/questions-plus.svg"
+                  alt="+"
+                  width="18"
+                  height="18"
+                />
+              </div>
+              <div class="content">
+                <ul>
+                  <li>тон в тон</li>
+                  <li>на затемнення</li>
+                  <li>на освітлення</li>
+                  <li>правила «відростаючих» коренів</li>
+                  <li>регулярність фарбувань</li>
+                  <li>алгоритми фарбувань</li>
+                  <li>накопичення пігменту, бендінг</li>
+                  <li>змішування коктейлів</li>
+                  <li>час витримки та закриття процедур фарбування</li>
+                </ul>
+              </div>
+            </div>
+            <div class="question">
+              <div class="question-name">
+                <p>День 8. Яскраві фарбування</p>
+                <img
+                  class="question-plus"
+                  src="./src/images/questions-plus.svg"
+                  alt="+"
+                  width="18"
+                  height="18"
+                />
+              </div>
+              <div class="content">
+                <ul>
+                  <li>особливості фарбувань в яскраві відтінки</li>
+                  <li>прямі пігменти</li>
+                  <li>переоксидація</li>
+                  <li>підтримка яскравості кольорів</li>
+                </ul>
+              </div>
+            </div>
+            <div class="question">
+              <div class="question-name">
+                <p>День 9. Блонд, створений фарбниками</p>
+                <img
+                  class="question-plus"
+                  src="./src/images/questions-plus.svg"
+                  alt="+"
+                  width="18"
+                  height="18"
+                />
+              </div>
+              <div class="content">
+                <ul>
+                  <li>фарбкарта, серія суперблондів</li>
+                  <li>діагностика</li>
+                  <li>алгоритми фарбувань</li>
+                  <li>проблеми в роботі та шляхи адаптації</li>
+                  <li>тонування</li>
+                </ul>
+              </div>
+            </div>
+            <div class="question">
+              <div class="question-name">
+                <p>День 10. Блонд, створений знебарвлюючими продуктами</p>
+                <img
+                  class="question-plus"
+                  src="./src/images/questions-plus.svg"
+                  alt="+"
+                  width="18"
+                  height="18"
+                />
+              </div>
+              <div class="content">
+                <ul>
+                  <li>діагностика</li>
+                  <li>підбір продуктів</li>
+                  <li>алгоритми фарбування</li>
+                </ul>
+              </div>
+            </div>
+            <div class="question">
+              <div class="question-name">
+                <p>День 11. Складні фарбування (основи)</p>
+                <img
+                  class="question-plus"
+                  src="./src/images/questions-plus.svg"
+                  alt="+"
+                  width="18"
+                  height="18"
+                />
+              </div>
+              <div class="content">
+                <ul>
+                  <li>передік робіт, що відносяться до складних фарбувань</li>
+                  <li>двоетапні фарбування</li>
+                  <li>вихід з чорного(основи, алгоритми)</li>
+                  <li>виправлення невдалих фарбувань(основи, логіка)</li>
+                  <li>корекція небажаних відтінків</li>
+                </ul>
+              </div>
+            </div>
+            <div class="question last-question">
+              <div class="question-name">
+                <p>День 12. Складні техніки фарбування</p>
+                <img
+                  class="question-plus"
+                  src="./src/images/questions-plus.svg"
+                  alt="+"
+                  width="18"
+                  height="18"
+                />
+              </div>
+              <div class="content">
+                <ul>
+                  <li>огляд, класифікації</li>
+                  <li>
+                    основи роботи в складних техніках ( діагностика, створення
+                    дизайну, контроль кількості блонду, зонування, ділення,
+                    набір пасм, упаковка фольгою..)
+                  </li>
+                  <li>етапи роботи,час витримки, закриття процедур</li>
+                  <li>
+                    зони корекції, поняття повного та часткового складного
+                    фарбування
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section how-study-go">
+        <div class="container">
+          <div>
+            <h2 class="how-study-title">як проходить навчання:</h2>
+            <div class="swiper mySwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <picture
+                    ><source
+                      srcset="
+                        ./src/images/study/study-mobile-01-1x.png 1x,
+                        ./src/images/study/study-mobile-01-2x.png 2x
+                      "
+                      media="(min-width: 320px)"
+                      width="250"
+                      height="250" />
+                    <img
+                      class="review-image"
+                      src="./src/images/study/study-mobile-01-1x.png"
+                      alt="review"
+                      width="250"
+                      height="250"
+                  /></picture>
+                </div>
+                <div class="swiper-slide">
+                  <picture
+                    ><source
+                      srcset="
+                        ./src/images/study/study-mobile-02-1x.png 1x,
+                        ./src/images/study/study-mobile-02-2x.png 2x
+                      "
+                      media="(min-width: 320px)"
+                      width="250"
+                      height="250" />
+                    <img
+                      class="review-image"
+                      src="./src/images/study/study-mobile-02-1x.png"
+                      alt="review"
+                      width="250"
+                      height="250"
+                  /></picture>
+                </div>
+                <div class="swiper-slide">
+                  <picture
+                    ><source
+                      srcset="
+                        ./src/images/study/study-mobile-03-1x.png 1x,
+                        ./src/images/study/study-mobile-03-2x.png 2x
+                      "
+                      media="(min-width: 320px)"
+                      width="250"
+                      height="250" />
+                    <img
+                      class="review-image"
+                      src="./src/images/study/study-mobile-03-1x.png"
+                      alt="review"
+                      width="250"
+                      height="250"
+                  /></picture>
+                </div>
+                <div class="swiper-slide">
+                  <picture
+                    ><source
+                      srcset="
+                        ./src/images/study/study-mobile-04-1x.png 1x,
+                        ./src/images/study/study-mobile-04-2x.png 2x
+                      "
+                      media="(min-width: 320px)"
+                      width="250"
+                      height="250" />
+                    <img
+                      class="review-image"
+                      src="./src/images/study/study-mobile-04-1x.png"
+                      alt="review"
+                      width="250"
+                      height="250"
+                  /></picture>
+                </div>
+                <div class="swiper-slide">
+                  <picture
+                    ><source
+                      srcset="
+                        ./src/images/study/study-mobile-05-1x.png 1x,
+                        ./src/images/study/study-mobile-05-2x.png 2x
+                      "
+                      media="(min-width: 320px)"
+                      width="250"
+                      height="250" />
+                    <img
+                      class="review-image"
+                      src="./src/images/study/study-mobile-05-1x.png"
+                      alt="review"
+                      width="250"
+                      height="250"
+                  /></picture>
+                </div>
+                <div class="swiper-slide">
+                  <picture
+                    ><source
+                      srcset="
+                        ./src/images/study/study-mobile-06-1x.png 1x,
+                        ./src/images/study/study-mobile-06-2x.png 2x
+                      "
+                      media="(min-width: 320px)"
+                      width="250"
+                      height="250" />
+                    <img
+                      class="review-image"
+                      src="./src/images/study/study-mobile-06-1x.png"
+                      alt="review"
+                      width="250"
+                      height="250"
+                  /></picture>
+                </div>
+                <div class="swiper-slide">
+                  <picture
+                    ><source
+                      srcset="
+                        ./src/images/study/study-mobile-07-1x.png 1x,
+                        ./src/images/study/study-mobile-07-2x.png 2x
+                      "
+                      media="(min-width: 320px)"
+                      width="250"
+                      height="250" />
+                    <img
+                      class="review-image"
+                      src="./src/images/study/study-mobile-07-1x.png"
+                      alt="review"
+                      width="250"
+                      height="250"
+                  /></picture>
+                </div>
+                <div class="swiper-slide">
+                  <picture
+                    ><source
+                      srcset="
+                        ./src/images/study/study-mobile-08-1x.png 1x,
+                        ./src/images/study/study-mobile-08-2x.png 2x
+                      "
+                      media="(min-width: 320px)"
+                      width="250"
+                      height="250" />
+                    <img
+                      class="review-image"
+                      src="./src/images/study/study-mobile-08-1x.png"
+                      alt="review"
+                      width="250"
+                      height="250"
+                  /></picture>
+                </div>
+                <div class="swiper-slide">
+                  <picture
+                    ><source
+                      srcset="
+                        ./src/images/study/study-mobile-09-1x.png 1x,
+                        ./src/images/study/study-mobile-09-2x.png 2x
+                      "
+                      media="(min-width: 320px)"
+                      width="250"
+                      height="250" />
+                    <img
+                      class="review-image"
+                      src="./src/images/study/study-mobile-09-1x.png"
+                      alt="review"
+                      width="250"
+                      height="250"
+                  /></picture>
+                </div>
+                <div class="swiper-slide">
+                  <picture
+                    ><source
+                      srcset="
+                        ./src/images/study/study-mobile-10-1x.png 1x,
+                        ./src/images/study/study-mobile-10-2x.png 2x
+                      "
+                      media="(min-width: 320px)"
+                      width="250"
+                      height="250" />
+                    <img
+                      class="review-image"
+                      src="./src/images/study/study-mobile-10-1x.png"
+                      alt="review"
+                      width="250"
+                      height="250"
+                  /></picture>
+                </div>
+                <div class="swiper-slide">
+                  <picture
+                    ><source
+                      srcset="
+                        ./src/images/study/study-mobile-11-1x.png 1x,
+                        ./src/images/study/study-mobile-11-2x.png 2x
+                      "
+                      media="(min-width: 320px)"
+                      width="250"
+                      height="250" />
+                    <img
+                      class="review-image"
+                      src="./src/images/study/study-mobile-11-1x.png"
+                      alt="review"
+                      width="250"
+                      height="250"
+                  /></picture>
+                </div>
+                <div class="swiper-slide">
+                  <picture
+                    ><source
+                      srcset="
+                        ./src/images/study/study-mobile-12-1x.png 1x,
+                        ./src/images/study/study-mobile-12-2x.png 2x
+                      "
+                      media="(min-width: 320px)"
+                      width="250"
+                      height="250" />
+                    <img
+                      class="review-image"
+                      src="./src/images/study/study-mobile-12-1x.png"
+                      alt="review"
+                      width="250"
+                      height="250"
+                  /></picture>
+                </div>
+                <div class="swiper-slide">
+                  <picture
+                    ><source
+                      srcset="
+                        ./src/images/study/study-mobile-13-1x.png 1x,
+                        ./src/images/study/study-mobile-13-2x.png 2x
+                      "
+                      media="(min-width: 320px)"
+                      width="250"
+                      height="250" />
+                    <img
+                      class="review-image"
+                      src="./src/images/study/study-mobile-13-1x.png"
+                      alt="review"
+                      width="250"
+                      height="250"
+                  /></picture>
+                </div>
+                <div class="swiper-slide">
+                  <picture
+                    ><source
+                      srcset="
+                        ./src/images/study/study-mobile-14-1x.png 1x,
+                        ./src/images/study/study-mobile-14-2x.png 2x
+                      "
+                      media="(min-width: 320px)"
+                      width="250"
+                      height="250" />
+                    <img
+                      class="review-image"
+                      src="./src/images/study/study-mobile-14-1x.png"
+                      alt="review"
+                      width="250"
+                      height="250"
+                  /></picture>
+                </div>
+                <div class="swiper-slide">
+                  <picture
+                    ><source
+                      srcset="
+                        ./src/images/study/study-mobile-15-1x.png 1x,
+                        ./src/images/study/study-mobile-15-2x.png 2x
+                      "
+                      media="(min-width: 320px)"
+                      width="250"
+                      height="250" />
+                    <img
+                      class="review-image"
+                      src="./src/images/study/study-mobile-15-1x.png"
+                      alt="review"
+                      width="250"
+                      height="250"
+                  /></picture>
+                </div>
+              </div>
+            </div>
+            <div class="hand-move-container">
+              <img
+                src="./src/images/hand-move.svg"
+                width="25"
+                height="25"
+                class="hand-move-icon"
+                alt="hand-move"
+              />
+              <p class="hand-move-text">гортай щоб побачити більше</p>
+            </div>
+          </div>
+          <div>
+            <h2 class="about-author-title">
+              Практикуючий експерт, Спікер
+              <span>і ваш наставник на курсі:</span>
+            </h2>
+            <ul class="about-author-list list">
+              <li class="list-item">
+                Авторка базового курсу з нуля СИСТЕМНА КОЛОРИСТИКА
+              </li>
+              <li class="list-item">
+                Засновниця Студії Колористики COLORHOUSE
+              </li>
+              <li class="list-item">
+                Маю досвід 14-ти років у колористиці/перукарській справі
+              </li>
+              <li class="list-item">3 роки наставництва</li>
+            </ul>
+            <div class="about-author-wrapper">
+              <p>
+                В цьому курсі увесь мій величезний практичний досвід, <br />
+                <span
+                  >яким я готова ділитися, моє бачення сучасної колористики, мій
+                  підхід до систематизації базових знань з нуля, а також мої
+                  напрацювання у роботі з кольоротипами</span
+                >
+              </p>
+            </div>
+          </div>
+          <div class="name-container">
+            <h3 class="author-name">Ольга Гриценюк</h3>
+          </div>
+        </div>
+      </section>
+      <section class="section-reviews">
+        <div class="container">
+          <h2 class="reviews-title">відгуки учениць</h2>
+          <div class="swiper mySwiperReviews">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <picture
+                  ><source
+                    srcset="
+                      ./src/images/reviews/review-mobile-01-1x.png 1x,
+                      ./src/images/reviews/review-mobile-01-2x.png 2x
+                    "
+                    media="(min-width: 320px)"
+                    width="250"
+                    height="250" />
+                  <img
+                    class="review-image"
+                    src="./src/images/reviews/review-mobile-01-1x.png"
+                    alt="review"
+                    width="250"
+                    height="250"
+                /></picture>
+              </div>
+              <div class="swiper-slide">
+                <picture
+                  ><source
+                    srcset="
+                      ./src/images/reviews/review-mobile-02-1x.png 1x,
+                      ./src/images/reviews/review-mobile-02-2x.png 2x
+                    "
+                    media="(min-width: 320px)"
+                    width="250"
+                    height="250" />
+                  <img
+                    class="review-image"
+                    src="./src/images/reviews/review-mobile-02-1x.png"
+                    alt="review"
+                    width="250"
+                    height="250"
+                /></picture>
+              </div>
+              <div class="swiper-slide">
+                <picture
+                  ><source
+                    srcset="
+                      ./src/images/reviews/review-mobile-03-1x.png 1x,
+                      ./src/images/reviews/review-mobile-03-2x.png 2x
+                    "
+                    media="(min-width: 320px)"
+                    width="250"
+                    height="250" />
+                  <img
+                    class="review-image"
+                    src="./src/images/reviews/review-mobile-03-1x.png"
+                    alt="review"
+                    width="250"
+                    height="250"
+                /></picture>
+              </div>
+              <div class="swiper-slide">
+                <picture
+                  ><source
+                    srcset="
+                      ./src/images/reviews/review-mobile-04-1x.png 1x,
+                      ./src/images/reviews/review-mobile-04-2x.png 2x
+                    "
+                    media="(min-width: 320px)"
+                    width="250"
+                    height="250" />
+                  <img
+                    class="review-image"
+                    src="./src/images/reviews/review-mobile-04-1x.png"
+                    alt="review"
+                    width="250"
+                    height="250"
+                /></picture>
+              </div>
+              <div class="swiper-slide">
+                <picture
+                  ><source
+                    srcset="
+                      ./src/images/reviews/review-mobile-05-1x.png 1x,
+                      ./src/images/reviews/review-mobile-05-2x.png 2x
+                    "
+                    media="(min-width: 320px)"
+                    width="250"
+                    height="250" />
+                  <img
+                    class="review-image"
+                    src="./src/images/reviews/review-mobile-05-1x.png"
+                    alt="review"
+                    width="250"
+                    height="250"
+                /></picture>
+              </div>
+              <div class="swiper-slide">
+                <picture
+                  ><source
+                    srcset="
+                      ./src/images/reviews/review-mobile-06-1x.png 1x,
+                      ./src/images/reviews/review-mobile-06-2x.png 2x
+                    "
+                    media="(min-width: 320px)"
+                    width="250"
+                    height="250" />
+                  <img
+                    class="review-image"
+                    src="./src/images/reviews/review-mobile-06-1x.png"
+                    alt="review"
+                    width="250"
+                    height="250"
+                /></picture>
+              </div>
+            </div>
+          </div>
+          <div class="hand-move-container">
+            <img
+              src="./src/images/hand-move.svg"
+              width="25"
+              height="25"
+              class="hand-move-icon"
+              alt="hand-move"
+            />
+            <p class="hand-move-text">гортай щоб побачити більше</p>
+          </div>
+        </div>
+      </section>
+      <section class="how-does-work">
+        <div class="container">
+          <h2 class="how-does-title">
+            Як відбувається <span>навчання на курсі?</span>
+          </h2>
+          <ul class="how-does-list list">
+            <li class="list-item">
+              Навчання триває протягом 12 днів, які охоплюють 75 годин теорії та
+              практики. Це саме той необхідний обсяг знань, який допомагає
+              повноцінно приступити до роботи в майбутньому
+            </li>
+            <li class="list-item">
+              Формат міні-груп до 6 чоловік забезпечує успішне засвоєння
+              інформації та відпрацювання практичних навичок, індивідуальний
+              підхід та особливу атмосферу взаємодії з наставником та учасниками
+              курсу
+            </li>
+            <li class="list-item">
+              На курсі надаються усі необхідні матеріали для навчання та
+              запрошуються моделі для відпрацювання навичок фарбувань
+            </li>
+            <li class="list-item">
+              Також учні отримують унікальний навчальний Воркбук , який
+              прискорює засвоєння теоретичної частини курсу
+            </li>
+            <li class="list-item">
+              Крім того, під час курсу учням надається доступ до закритого чату
+              учасників, де буде змога спілкуватися з наставником та колегами-
+              однодумцями, ставити питання, ділитися своїми успіхами
+            </li>
+            <li class="list-item">
+              По завершенню курсу та підсумкового іспиту надається сертифікат
+            </li>
+          </ul>
+          <div class="form-container">
+            <p class="form-title">Заповнюйте анкету передзапису</p>
+            <p class="form-text">
+              щоб першими дізнатися про дату старту курсу, забронювати місце на
+              найкращих умовах та отримати подарунки
+            </p>
+            <a class="form-button link" href="">АНКЕТА ПЕРЕДЗАПИСУ</a>
+          </div>
+          <div class="gift-container">
+            <p class="gift-title">подарунки, які ви можете отримати</p>
+            <div class="gift-wrapper">
+              <picture
+                ><source
+                  srcset="
+                    ./src/images/gift-image-mobile-1x.png 1x,
+                    ./src/images/gift-image-mobile-2x.png 2x
+                  "
+                  media="(min-width: 320px)"
+                  width="134"
+                  height="89" />
+                <img
+                  class="gift-bow"
+                  src="./src/images/gift-image-mobile-1x.png"
+                  alt="white bow"
+                  width="134"
+                  height="89"
+              /></picture>
+              <ul class="gift-list list">
+                <li class="list-item">
+                  <span>– Урок:</span> «Успішний Колорист. П'ять напрямків у
+                  професії, в яких можна розвиватися і круто заробляти»
+                </li>
+                <li class="list-item">
+                  <span>– Урок:</span> «Швидкий старт в професії або як окупити
+                  навчання за пару місяців»
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="about-course-alert">
+          <h3 class="course-alert-title">Курс проходить ОФЛАЙН!</h3>
+          <p class="course-adress">в Студії Колористики COLORHOUSE, м. Київ</p>
+        </div>
+      </section>
+      <section class="section-attention">
+        <div class="container">
+          <h2 class="attention-title">Уявіть,</h2>
+          <p class="attention-subtitle">
+            що у Ваших руках знання, які необхідні!
+          </p>
+          <p class="attention-text">
+            Ніякого хаотичного навчання всьому поспіль, а просто чітке
+            розуміння, що робити, як робити, як прогнозувати результат, як
+            працювати з клієнтами, як розвиватися, щоб улюблена справа приносила
+            задоволення і стабільний дохід
+          </p>
+          <p class="attention-move">Не зволікайте! Прийшов час діяти!</p>
+        </div>
+      </section>
+      <section class="section-questions">
+        <div class="container">
+          <h2 class="questions-title">Питання, які можуть у вас виникнути</h2>
+          <div class="faq-two">
+            <div class="question-two open isOpen">
+              <div class="question-two-name">
+                <p>
+                  Чи потрібно мати попередній досвід у колористиці для цього
+                  курсу?
+                </p>
+                <img
+                  class="question-plus"
+                  src="./src/images/questions-plus.svg"
+                  alt="+"
+                  width="18"
+                  height="18"
+                />
+              </div>
+              <div class="content-two">
+                <p>
+                  Курс розроблений таким чином, щоб бути доступним і цікавим як
+                  для початківців, так і для тих, хто вже має певний досвід
+                </p>
+              </div>
+            </div>
+            <div class="question-two">
+              <div class="question-two-name">
+                <p>Чим цей курс відрізняється від інших?</p>
+                <img
+                  class="question-plus"
+                  src="./src/images/questions-plus.svg"
+                  alt="+"
+                  width="18"
+                  height="18"
+                />
+              </div>
+              <div class="content-two">
+                <p>
+                  Перш за все - це ОФЛАЙН-курс, формат якого дає змогу
+                  засвоювати знання без прогалин, де кожен учасник отримує
+                  зворотній звʼязок, необхідну допомогу та підтримку. Теорія і
+                  практика курсу систематизовані та структуровані таким чином,
+                  щоб навчатися легко та швидко
+                </p>
+              </div>
+            </div>
+            <div class="question-two">
+              <div class="question-two-name">
+                <p>
+                  Якщо я раніше взагалі не мав/мала відношення до бʼюті-сфери,
+                  чи вийде в мене освоїти колористику?
+                </p>
+                <img
+                  class="question-plus"
+                  src="./src/images/questions-plus.svg"
+                  alt="+"
+                  width="18"
+                  height="18"
+                />
+              </div>
+              <div class="content-two">
+                <p>
+                  Так, звичайно! Багато наших учнів до навчання колористиці
+                  працювали зовсім в інших сферах, а зараз працюють Колористами
+                </p>
+              </div>
+            </div>
+            <div class="question-two">
+              <div class="question-two-name">
+                <p>Скільки часу триває курс?</p>
+                <img
+                  class="question-plus"
+                  src="./src/images/questions-plus.svg"
+                  alt="+"
+                  width="18"
+                  height="18"
+                />
+              </div>
+              <div class="content-two">
+                <p>Курс триває протягом 12 днів</p>
+              </div>
+            </div>
+            <div class="question-two">
+              <div class="question-two-name">
+                <p>Які матеріали потрібні для навчання?</p>
+                <img
+                  class="question-plus"
+                  src="./src/images/questions-plus.svg"
+                  alt="+"
+                  width="18"
+                  height="18"
+                />
+              </div>
+              <div class="content-two">
+                <p>
+                  На курсі надаються усі необхідні матеріали для навчання та
+                  запрошуються моделі на відпрацювання практики фарбувань
+                </p>
+              </div>
+            </div>
+            <div class="question-two last-question">
+              <div class="question-two-name">
+                <p>Якою мовою проходить навчання?</p>
+                <img
+                  class="question-plus"
+                  src="./src/images/questions-plus.svg"
+                  alt="+"
+                  width="18"
+                  height="18"
+                />
+              </div>
+              <div class="content-two">
+                <p>
+                  Курс викладається українською мовою з адаптованою
+                  колористичною термінологією
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-deals">
+          <ul class="footer-deals-list list">
+            <li class="list-item">
+              <a
+                class="link"
+                target="_blank"
+                rel="nofollow"
+                href="https://docs.google.com/document/d/1id0_Br39AZN3OyWDCcoLzUuTeORAK9BV/edit?usp=sharing&ouid=109420835552004065903&rtpof=true&sd=true"
+                >Договір оферта</a
+              >
+            </li>
+            <li class="list-item">
+              <a
+                class="link"
+                target="_blank"
+                rel="nofollow"
+                href="https://docs.google.com/document/d/1rf9Bg1VB77fAtcOBbNYWzMBBoqDWPFyp/edit?usp=sharing&ouid=109420835552004065903&rtpof=true&sd=true"
+                >Політика конфіденційності</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="footer-social-container">
+          <div class="mail-container">
+            <img
+              src="./src/images/gmail-icon.svg"
+              alt="gmail"
+              width="20"
+              height="20"
+            />
+            <a class="footer-mail link" href="mailto:"
+              >o.gritzenyuk@gmail.com</a
+            >
+          </div>
+        </div>
+        <div>
+          <a
+            class="disign-creator-link link"
+            href="https://www.instagram.com/lllckui"
+            target="_blank"
+            rel="nofollow"
+            ><div class="disign-creator">
+              <p class="create-by-text">Сайт розроблений</p>
+              <img
+                class="insta-icon"
+                src="./src/images/insta-icon.svg"
+                alt="insta"
+                width="14"
+                height="14"
+              />
+              <p class="create-by-text">@lllckui</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </footer>
+    <script src="./src/js/jquery-3.7.0.min.js" type="module"></script>
+    <script src="./src/js/faq.js" type="module"></script>
+    <script src="./src/js/swiper.js" type="module"></script>
+    <script src="./src/js/timer.js" type="module"></script>
+    <script src="./src/js/scroll.js" type="module"></script>
   </body>
 </html>
