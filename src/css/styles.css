@@ -231,6 +231,23 @@ p {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
+
+  animation: glowing-header 1300ms infinite;
+}
+
+@keyframes glowing-header {
+  0% {
+    background-color: #187864;
+    box-shadow: 0 0 5px #187864;
+  }
+  50% {
+    background-color: #135b4c;
+    box-shadow: 0 0 20px #135b4c;
+  }
+  100% {
+    background-color: #187864;
+    box-shadow: 0 0 5px #187864;
+  }
 }
 
 /* gift-container */
@@ -251,7 +268,7 @@ p {
 .gift-wrapper {
   position: relative;
 
-  padding: 30px;
+  padding: 30px 25px;
   border-radius: 10px;
   background: #c8dcd1;
 
@@ -304,9 +321,9 @@ p {
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(3.5px);
 
-  padding: 15px 20px;
+  padding: 15px 20px 15px 55px;
 
-  max-width: 211px;
+  max-width: 241px;
   width: 100%;
 }
 
@@ -963,6 +980,23 @@ p {
 
 .how-does-work .form-button {
   background: #cc2287;
+
+  animation: glowing-work 1300ms infinite;
+}
+
+@keyframes glowing-work {
+  0% {
+    background-color: #cc2287;
+    box-shadow: 0 0 5px #cc2287;
+  }
+  50% {
+    background-color: #e544a3;
+    box-shadow: 0 0 20px #e544a3;
+  }
+  100% {
+    background-color: #cc2287;
+    box-shadow: 0 0 5px #cc2287;
+  }
 }
 
 .how-does-work .gift-title {
