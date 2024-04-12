@@ -178,7 +178,7 @@ p {
 /* form-container */
 
 .form-container {
-  margin-bottom: 60px;
+  margin-bottom: 50px;
 }
 
 .form-title {
@@ -235,6 +235,25 @@ p {
   animation: glowing-header 1300ms infinite;
 }
 
+.remaining-text {
+  margin-top: 10px;
+
+  color: #cc2287;
+  text-align: center;
+  font-family: 'Futura PT';
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.28px;
+  text-transform: uppercase;
+}
+
+.remaining-text.white {
+  margin-top: 10px;
+  color: #fff;
+}
+
 @keyframes glowing-header {
   0% {
     background-color: #187864;
@@ -248,6 +267,54 @@ p {
     background-color: #187864;
     box-shadow: 0 0 5px #187864;
   }
+}
+
+/* timer-two */
+
+.timer-container-two {
+  margin-top: 30px;
+}
+
+.countdown-two {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+
+  margin-bottom: 42px;
+}
+
+.countdown-time-two {
+  display: block;
+  color: #fff;
+  text-align: center;
+  font-family: 'Futura PT';
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: -0.56px;
+
+  width: 70px;
+}
+
+.countdown-doubledot-two {
+  content: '';
+  display: flex;
+
+  height: 30px;
+  width: 1px;
+  background: #fff;
+
+  margin-top: 40px;
+  margin-bottom: 40px;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 /* gift-container */
@@ -305,6 +372,59 @@ p {
 
 .gift-list .list-item span {
   font-weight: 450;
+}
+
+/* timer */
+
+.timer-container-one {
+  position: absolute;
+  left: 50%;
+  bottom: -30px;
+
+  transform: translate(-50%);
+}
+
+.countdown {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+
+  margin-bottom: 40px;
+}
+
+.countdown-time {
+  display: block;
+
+  color: #171717;
+  text-align: center;
+  font-family: 'Futura PT';
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: -0.64px;
+
+  width: 70px;
+}
+
+.countdown-doubledot {
+  content: '';
+  display: flex;
+
+  height: 25px;
+  width: 1px;
+  background: #171717;
+
+  margin-top: 40px;
+  margin-bottom: 40px;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 /* header-author-container */
