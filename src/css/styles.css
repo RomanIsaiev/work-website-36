@@ -198,6 +198,10 @@ p {
   margin-bottom: 60px;
 }
 
+.form-container.second {
+  margin-bottom: 0;
+}
+
 .form-title {
   color: #cc2287;
   text-align: center;
