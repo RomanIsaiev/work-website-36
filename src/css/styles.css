@@ -114,7 +114,7 @@ p {
 }
 
 .about-course-container {
-  margin-bottom: 40px;
+  margin-bottom: 10px;
 }
 
 .about-course-container::after {
@@ -129,8 +129,22 @@ p {
   background-color: #032b23;
 }
 
+.header-start {
+  color: #fff;
+  text-align: right;
+  font-family: 'Futura PT';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: -0.3px;
+
+  margin-bottom: 30px;
+}
+
 .about-course-text {
   color: #fff;
+  text-align: center;
   font-family: 'Futura PT';
   font-size: 15px;
   font-style: normal;
@@ -150,7 +164,7 @@ p {
 
   max-width: 297px;
 
-  margin-bottom: 20px;
+  margin-bottom: 80px;
 }
 
 .header-title span {
@@ -159,6 +173,7 @@ p {
 
 .header-desc {
   color: #fff;
+  text-align: center;
   font-family: 'Futura PT';
   font-size: 16px;
   font-style: normal;
@@ -166,9 +181,11 @@ p {
   line-height: 90%; /* 14.4px */
   letter-spacing: -0.32px;
 
-  max-width: 187px;
+  max-width: 227px;
+  margin-left: auto;
+  margin-right: auto;
 
-  margin-bottom: 215px;
+  margin-bottom: 155px;
 }
 
 .header-desc span {
@@ -178,7 +195,7 @@ p {
 /* form-container */
 
 .form-container {
-  margin-bottom: 50px;
+  margin-bottom: 60px;
 }
 
 .form-title {
@@ -379,7 +396,7 @@ p {
 .timer-container-one {
   position: absolute;
   left: 50%;
-  bottom: -30px;
+  bottom: 200px;
 
   transform: translate(-50%);
 }
