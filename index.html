@@ -8,6 +8,8 @@
       rel="stylesheet"
       href="node_modules/modern-normalize/modern-normalize.css"
     />
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
+
     <link rel="stylesheet" href="/src/css/styles.css" />
     <!-- Meta Pixel Code -->
     <script>
@@ -42,52 +44,45 @@
   <body>
     <header class="header">
       <div class="container">
-        <div class="about-course-container">
-          <p class="about-course-text">
-            Авторський повноцінний базовий курс з нуля
-          </p>
-        </div>
-        <p class="header-start">СТАРТ 17.09</p>
-        <h1 class="header-title">СИСТЕМНА <span>КОЛОРИСТИКА</span></h1>
-        <p class="header-desc">
-          ОФЛАЙН-КУРС
-          <span
-            >який дає тверді навички та професію, що дає змогу заробляти від
-            3000$ на місяць</span
-          >
-        </p>
-        <p></p>
-
-        <div class="form-container">
-          <p class="form-title">Заповнюйте анкету</p>
-          <p class="form-text">
-            щоб першими дізнатися усі деталі та встигнути забронювати місце на
-            курсі за спеціальною пропозицією
-          </p>
-          <a class="form-button link" href="https://forms.gle/d1Wc48TYqDH4fyYg7"
-            >АНКЕТА
-          </a>
-        </div>
-        <div class="timer-container-one">
-          <div id="countdown" class="countdown">
-            <!-- <div class="countdown-number">
-              <span class="days countdown-time"></span>
-            </div>
-            <div><span class="countdown-doubledot"></span></div> -->
-            <div class="countdown-number">
-              <span class="hours countdown-time"></span>
-            </div>
-            <div><span class="countdown-doubledot"></span></div>
-            <div class="countdown-number">
-              <span class="minutes countdown-time"></span>
-            </div>
-            <div><span class="countdown-doubledot"></span></div>
-            <div class="countdown-number">
-              <span class="seconds countdown-time"></span>
-            </div>
+        <div class="format-location">
+          <div class="box">
+            <p class="location">КИЇВ</p>
+            <p class="format">ОФЛАЙН-ІНТЕНСИВ</p>
           </div>
         </div>
-        <div class="gift-container">
+
+        <!-- <p class="header-start">СТАРТ 17.09</p> -->
+        <h1 class="header-title">СИСТЕМНА <span>КОЛОРИСТИКА</span></h1>
+
+        <p class="about-course-desc">
+          <span>Опануйте професію,</span><br />
+          яка назавжди залишиться з Вами і дасть можливість достойно заробляти
+          будь де, незалежно від обставин та місцезнаходження
+        </p>
+
+        <p class="about-course">
+          Авторський повноцінний базовий курс <span>з нуля</span>, який дає
+          змогу:
+        </p>
+        <ul class="header-list list">
+          <li class="list-item">
+            набути тверді навички салонних фарбувань різної складності
+          </li>
+          <li class="list-item">
+            зорієнтуватися зі старту в усіх процесах та напрямках діяльності у
+            колористиці
+          </li>
+          <li class="list-item">
+            отримати мій безпосередній супровід та підтримку у засвоєнні
+            теорії/практики
+          </li>
+          <li class="list-item">
+            і нарешті - стартувати у професії, що дає змогу заробляти від 3000$
+            і більше на місяць»
+          </li>
+        </ul>
+        <a data-scroll href="#detail1" class="form-button link">детальніше </a>
+        <!-- <div class="gift-container">
           <p class="gift-title">Подарунки за заповнення анкети</p>
           <div class="gift-wrapper">
             <picture
@@ -117,7 +112,7 @@
               </li>
             </ul>
           </div>
-        </div>
+        </div> -->
       </div>
       <div class="header-author-container">
         <p class="header-author-name">Ольга Гриценюк</p>
@@ -132,7 +127,7 @@
       </div>
     </header>
     <main>
-      <section class="course-for-you">
+      <section class="course-for-you" id="detail1">
         <div class="container">
           <h2 class="for-you-title">Цей курс для Вас, якщо ви:</h2>
           <ul class="for-you-list list">
@@ -351,6 +346,9 @@
               </div>
             </li>
           </ul>
+          <a class="form-button link" data-scroll href="#detail2"
+            >детальніше
+          </a>
         </div>
       </section>
       <section class="what-you-take">
@@ -399,7 +397,7 @@
           </ul>
         </div>
       </section>
-      <section class="section course-program">
+      <section class="section course-program" id="detail2">
         <div class="container">
           <h2 class="program-title">НАСИЧЕНА ПРОГРАМА КУРСУ:</h2>
           <p class="program-subtitle">По результату вивчення ви дізнаєтесь:</p>
@@ -680,6 +678,9 @@
               </div>
             </div>
           </div>
+          <a class="form-button link" data-scroll href="#detail3"
+            >детальніше
+          </a>
         </div>
       </section>
       <section class="section how-study-go">
@@ -827,132 +828,6 @@
                     <img
                       class="review-image"
                       src="./src/images/study/study-mobile-08-1x.png"
-                      alt="review"
-                      width="250"
-                      height="250"
-                  /></picture>
-                </div>
-                <div class="swiper-slide">
-                  <picture
-                    ><source
-                      srcset="
-                        ./src/images/study/study-mobile-09-1x.png 1x,
-                        ./src/images/study/study-mobile-09-2x.png 2x
-                      "
-                      media="(min-width: 320px)"
-                      width="250"
-                      height="250" />
-                    <img
-                      class="review-image"
-                      src="./src/images/study/study-mobile-09-1x.png"
-                      alt="review"
-                      width="250"
-                      height="250"
-                  /></picture>
-                </div>
-                <div class="swiper-slide">
-                  <picture
-                    ><source
-                      srcset="
-                        ./src/images/study/study-mobile-10-1x.png 1x,
-                        ./src/images/study/study-mobile-10-2x.png 2x
-                      "
-                      media="(min-width: 320px)"
-                      width="250"
-                      height="250" />
-                    <img
-                      class="review-image"
-                      src="./src/images/study/study-mobile-10-1x.png"
-                      alt="review"
-                      width="250"
-                      height="250"
-                  /></picture>
-                </div>
-                <div class="swiper-slide">
-                  <picture
-                    ><source
-                      srcset="
-                        ./src/images/study/study-mobile-11-1x.png 1x,
-                        ./src/images/study/study-mobile-11-2x.png 2x
-                      "
-                      media="(min-width: 320px)"
-                      width="250"
-                      height="250" />
-                    <img
-                      class="review-image"
-                      src="./src/images/study/study-mobile-11-1x.png"
-                      alt="review"
-                      width="250"
-                      height="250"
-                  /></picture>
-                </div>
-                <div class="swiper-slide">
-                  <picture
-                    ><source
-                      srcset="
-                        ./src/images/study/study-mobile-12-1x.png 1x,
-                        ./src/images/study/study-mobile-12-2x.png 2x
-                      "
-                      media="(min-width: 320px)"
-                      width="250"
-                      height="250" />
-                    <img
-                      class="review-image"
-                      src="./src/images/study/study-mobile-12-1x.png"
-                      alt="review"
-                      width="250"
-                      height="250"
-                  /></picture>
-                </div>
-                <div class="swiper-slide">
-                  <picture
-                    ><source
-                      srcset="
-                        ./src/images/study/study-mobile-13-1x.png 1x,
-                        ./src/images/study/study-mobile-13-2x.png 2x
-                      "
-                      media="(min-width: 320px)"
-                      width="250"
-                      height="250" />
-                    <img
-                      class="review-image"
-                      src="./src/images/study/study-mobile-13-1x.png"
-                      alt="review"
-                      width="250"
-                      height="250"
-                  /></picture>
-                </div>
-                <div class="swiper-slide">
-                  <picture
-                    ><source
-                      srcset="
-                        ./src/images/study/study-mobile-14-1x.png 1x,
-                        ./src/images/study/study-mobile-14-2x.png 2x
-                      "
-                      media="(min-width: 320px)"
-                      width="250"
-                      height="250" />
-                    <img
-                      class="review-image"
-                      src="./src/images/study/study-mobile-14-1x.png"
-                      alt="review"
-                      width="250"
-                      height="250"
-                  /></picture>
-                </div>
-                <div class="swiper-slide">
-                  <picture
-                    ><source
-                      srcset="
-                        ./src/images/study/study-mobile-15-1x.png 1x,
-                        ./src/images/study/study-mobile-15-2x.png 2x
-                      "
-                      media="(min-width: 320px)"
-                      width="250"
-                      height="250" />
-                    <img
-                      class="review-image"
-                      src="./src/images/study/study-mobile-15-1x.png"
                       alt="review"
                       width="250"
                       height="250"
@@ -1131,7 +1006,7 @@
           </div>
         </div>
       </section>
-      <section class="how-does-work">
+      <section class="how-does-work" id="detail3">
         <div class="container">
           <h2 class="how-does-title">
             Як відбувається <span>навчання на курсі?</span>
@@ -1165,7 +1040,7 @@
               По завершенню курсу та підсумкового іспиту надається сертифікат
             </li>
           </ul>
-          <div class="form-container second">
+          <!-- <div class="form-container second">
             <p class="form-title">Заповнюйте анкету</p>
             <p class="form-text">
               щоб першими дізнатися усі деталі та встигнути забронювати місце на
@@ -1176,8 +1051,8 @@
               href="https://forms.gle/d1Wc48TYqDH4fyYg7"
               >АНКЕТА
             </a>
-          </div>
-          <div class="timer-container-two">
+          </div> -->
+          <!-- <div class="timer-container-two">
             <div id="countdown-two" class="countdown">
               <div class="countdown-number">
                 <span class="days-two countdown-time-two"></span>
@@ -1195,8 +1070,8 @@
                 <span class="seconds-two countdown-time-two"></span>
               </div>
             </div>
-          </div>
-          <div class="gift-container">
+          </div> -->
+          <!-- <div class="gift-container">
             <p class="gift-title">Подарунки за заповнення анкети</p>
             <div class="gift-wrapper">
               <picture
@@ -1226,7 +1101,7 @@
                 </li>
               </ul>
             </div>
-          </div>
+          </div> -->
         </div>
         <div class="about-course-alert">
           <h3 class="course-alert-title">Курс проходить ОФЛАЙН!</h3>
@@ -1246,6 +1121,13 @@
             задоволення і стабільний дохід
           </p>
           <p class="attention-move">Не зволікайте! Прийшов час діяти!</p>
+          <a
+            class="form-button link"
+            href="https://t.me/OlgaGrytseniuk"
+            target="_blank"
+            rel="nofollow"
+            >ЗВʼЯЗАТИСЯ ЗІ МНОЮ</a
+          >
         </div>
       </section>
       <section class="section-questions">
@@ -1419,10 +1301,15 @@
         </div>
       </div>
     </footer>
+    <script>
+      var scroll = new SmoothScroll('a[href*="#"]', {
+        speed: 1000,
+        speedAsDuration: true,
+      });
+    </script>
     <script src="./src/js/jquery-3.7.0.min.js" type="module"></script>
     <script src="./src/js/faq.js" type="module"></script>
     <script src="./src/js/swiper.js" type="module"></script>
-    <script src="./src/js/scroll.js" type="module"></script>
-    <script src="./src/js/timer.js" type="module"></script>
+    <!-- <script src="./src/js/timer.js" type="module"></script> -->
   </body>
 </html>
